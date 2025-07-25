@@ -64,5 +64,7 @@ def main():
     y_val = val_df['emotion']
     y_test = test_df['emotion']
     train_and_evaluate(X_train, y_train, X_val, y_val, X_test, y_test)
-    if __name__ == '__main__':
-        main()
+
+if __name__ == '__main__':
+    main()
+
